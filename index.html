@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>  
+
+<html>
+
+<head>
+
+<title>Board Game</title>
+
+<link rel="stylesheet" type="text/css" href="boardGame.css" />
+
+</head>
+
+<body>
+
+<div id='header'>Board Game</div>
+
+<div id='wrapper'>
+
+	<div id='commands'>
+
+		<select id='leftCoor'>
+			<option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option>
+		</select>
+
+		<select id='rightCoor'>
+			<option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option>
+		</select>
+
+
+		<select id='direction'>
+			<option value="north">North</option><option value="south">South</option><option value="east">East</option><option value="west">West</option>
+		</select>
+
+		<button id='place'>Place</button><br/>
+
+		<button id='turnLeft'>Turn Left</button>
+		<button id='turnRight'>Turn Right</button>
+		<button id='forward'>Forward</button>
+		<button id='status'>Status</button>
+
+	</div>
+
+	<div id='results'>Status: Place the Avator &amp; Click Status</div>
+
+</div>
+
+<input id='gridSize' type='hidden' />
+
+<div id='boardGrid'></div>
+
+<div id='avatorLocation'>
+
+	<input id='avatorLeft' type='hidden' />
+	<input id='avatorRight' type='hidden' />
+	<input id='avatorDir' type='hidden' />
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js">
+</script>
+
+<script src="boardGame.js">
+</script>
+
+</body>
+
+</html>
