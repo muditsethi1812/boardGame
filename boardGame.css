@@ -1,0 +1,63 @@
+
+body
+{
+	background-color: #E0ECF8;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header
+{
+	text-align: center;
+	padding-top: 25px;
+}
+
+#wrapper
+{
+	text-align: center;
+}
+
+table.grid
+{
+	border: 1px none gray;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.grid td
+{
+	border: 1px inset gray;
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	padding-bottom: 10px;
+}
+
+.subText
+{
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+.arrow
+{
+	position: absolute;
+	margin-top: -20px;
+	font-size: 30px;
+}
+
+#commands
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#results
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
